@@ -1,0 +1,30 @@
+Winserver:
+Server Manager
+Tools>Hyper-V manager
+"Untangle" firewall should running
+
+Client PC:
+Chrome Browser: IP address for untangle
+Go to Apps > Captive portal>enabled
+Capture Rules> enable first the rule> Capture all traffic...
+Check: Any Non-WAN, select type: Capture
+(optional) For bypass the rules Go to Passed Hosts> Enter Client IP address (it will not go to capture rules)
+Captive Page> Use Basic Login
+Page Title: Prince
+Welcome Text: Welcome to PRINCE COMPANY
+Username Text: Username:
+Password Text: Password:
+Message Text: Please enter your username and password to correct to the internet. If you don't have any please contact me at #23.
+Lower Text: If you have any questions, please contact your network administrator.
+User Authentication> select: Local Directory (but if you have Active Directory select this AD) ,Idle timeout: 0, Timeout: 60, check Allow concurrent logins
+View Reports
+Config>Local Directory> To create client's username and password
+Add>
+User/Login ID: kelly
+First Name: kaldog
+Last Name: pote
+Email Address:
+Password: 12345
+Expiration Date/Time: set this up
+
+Browse now in google:
